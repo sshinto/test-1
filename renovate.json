@@ -1,1 +1,8 @@
-Renovate
+
+{
+  "extends": ["config:base", ":skipStatusChecks", "docker:disable", "schedule:weekly"],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
+}
