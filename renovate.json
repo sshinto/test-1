@@ -1,10 +1,5 @@
 {
   "extends": [
     "config:base"
-  ],
-  "minor": { "automerge": true },
-  "patch": { "automerge": true },
-  "requiredStatusChecks": null,
-  "prHourlyLimit": 0,
-  "ignorePaths": ["docker-example/Dockerfile"]
+  ]
 }
