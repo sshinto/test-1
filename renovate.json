@@ -1,8 +1,10 @@
-
 {
-  "extends": ["config:base", ":skipStatusChecks", "docker:disable", "schedule:weekly"],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  }
+  "extends": [
+    "config:base"
+  ],
+  "minor": { "automerge": true },
+  "patch": { "automerge": true },
+  "requiredStatusChecks": null,
+  "prHourlyLimit": 0,
+  "ignorePaths": ["docker-example/Dockerfile"]
 }
